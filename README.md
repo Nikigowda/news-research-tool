@@ -1,47 +1,45 @@
 
-#Financial News Analysis Tool
+FINANCIAL NEWS ANALYSIS TOOL
 
 Welcome to the Financial News Analysis Tool, a robust utility for extracting valuable insights from financial news articles. Whether you're interested in stock market trends or specific companies, this tool allows you to utilize advanced technologies for efficient information retrieval.
 
 
+FEATURES
 
-Key Features
+URL Input: Load URLs or upload text files containing URLs to retrieve article content.
 
-#URL Input: 
-Load URLs or upload text files containing URLs to retrieve article content.
-
-#LangChain Integration: 
+LangChain Integration: 
 Process article content through LangChain's UnstructuredURL Loader for enhanced data understanding.
 
-#Embedding Vector Construction: 
+Embedding Vector Construction: 
 Utilize OpenAI's embeddings to construct embedding vectors.
 
-#FAISS Similarity Search: 
+FAISS Similarity Search: 
 Leverage FAISS, a robust similarity search library, for swift and effective retrieval of relevant information.
 
-#ChatGPT Interaction: 
+ChatGPT Interaction: 
 Interact with ChatGPT (LLM) by inputting queries and receiving answers along with source URLs.
 
 
 
-How to Use
-Run the Application:
+HOW TO USE                      
 
+Run the Application:                      
 Execute the main.py script to open the web app in your browser.
-Input URLs:
 
+Input URLs:                      
 Enter URLs directly in the sidebar or upload a text file containing URLs.
-Process URLs:
 
-Click "Process URLs" to initiate data loading and processing.
-The system will perform text splitting, generate embedding vectors, and index them efficiently using FAISS.
-Index Storage:
+Process URLs:                     
+Click "Process URLs" to initiate data loading and processing.The system will perform text splitting, generate embedding vectors, and index them efficiently using FAISS.
 
+Index Storage:                  
 The FAISS index is stored locally in a pickle file (faiss_store_openai.pkl) for future use.
-Query the Tool:
 
 
 
+
+QUERY THE TOOL
 Ask questions and receive answers based on the analyzed news articles.
 Example URLs for Reference
 Tata Motors & Mahindra Gain Certificates for Production-Linked Payouts
@@ -51,7 +49,8 @@ Buy Tata Motors, Target of Rs 743: KR Choksey
 
 
 
-Project Structure
+PROJECT STRUCTURE
+
 
 main.py: 
 The main Streamlit application script.
