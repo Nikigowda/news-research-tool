@@ -22,6 +22,8 @@ Leverage FAISS, a robust similarity search library, for swift and effective retr
 #ChatGPT Interaction: 
 Interact with ChatGPT (LLM) by inputting queries and receiving answers along with source URLs.
 
+
+
 How to Use
 Run the Application:
 
@@ -38,11 +40,16 @@ Index Storage:
 The FAISS index is stored locally in a pickle file (faiss_store_openai.pkl) for future use.
 Query the Tool:
 
+
+
 Ask questions and receive answers based on the analyzed news articles.
 Example URLs for Reference
 Tata Motors & Mahindra Gain Certificates for Production-Linked Payouts
 Tata Motors Launches Punch ICNG
 Buy Tata Motors, Target of Rs 743: KR Choksey
+
+
+
 
 Project Structure
 
