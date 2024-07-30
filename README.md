@@ -6,11 +6,21 @@ Welcome to the Financial News Analysis Tool, a robust utility for extracting val
 
 
 Key Features
-#URL Input: Load URLs or upload text files containing URLs to retrieve article content.
-#LangChain Integration: Process article content through LangChain's UnstructuredURL Loader for enhanced data understanding.
-#Embedding Vector Construction: Utilize OpenAI's embeddings to construct embedding vectors.
-#FAISS Similarity Search: Leverage FAISS, a robust similarity search library, for swift and effective retrieval of relevant information.
-#ChatGPT Interaction: Interact with ChatGPT (LLM) by inputting queries and receiving answers along with source URLs.
+
+#URL Input: 
+Load URLs or upload text files containing URLs to retrieve article content.
+
+#LangChain Integration: 
+Process article content through LangChain's UnstructuredURL Loader for enhanced data understanding.
+
+#Embedding Vector Construction: 
+Utilize OpenAI's embeddings to construct embedding vectors.
+
+#FAISS Similarity Search: 
+Leverage FAISS, a robust similarity search library, for swift and effective retrieval of relevant information.
+
+#ChatGPT Interaction: 
+Interact with ChatGPT (LLM) by inputting queries and receiving answers along with source URLs.
 
 How to Use
 Run the Application:
@@ -36,7 +46,14 @@ Buy Tata Motors, Target of Rs 743: KR Choksey
 
 Project Structure
 
-main.py: The main Streamlit application script.
-requirements.txt: A list of required Python packages for the project.
-faiss_store_openai.pkl: A pickle file to store the FAISS index.
-.env: Configuration file for storing the OpenAI API key.
+main.py: 
+The main Streamlit application script.
+
+requirements.txt: 
+A list of required Python packages for the project.
+
+faiss_store_openai.pkl: 
+A pickle file to store the FAISS index.
+
+.env: 
+Configuration file for storing the OpenAI API key.
